@@ -1,0 +1,282 @@
+{
+  "flightDetails": [
+    {
+      "id": 1,
+      "arrivaltime": "10:00 AM",
+      "deptTime": "9:00 AM",
+      "destination": "Hyderabad",
+      "duration": "2 hrs",
+      "flight": "A177",
+      "from": "Bangalore",
+      "isseatavailable": true,
+      "name": "FlyAir",
+      "status": "Active",
+      "departureDate": "2014-01-01T23:28:56.782Z"
+    },
+    {
+      "id": 2,
+      "arrivaltime": "11:00 AM",
+      "deptTime": "9:00 AM",
+      "destination": "Kochi",
+      "duration": "2 hrs",
+      "flight": "A178",
+      "from": "Bangalore",
+      "isseatavailable": true,
+      "name": "FlyAir",
+      "status": "Active",
+      "departureDate": "2014-01-01T23:28:56.782Z"
+    }
+  ],
+  "passengers": [
+    {
+      "id": 1,
+      "address": "Kannur",
+      "age": "26",
+      "ancillaryservices": [
+        {
+          "id": 2,
+          "name": "Shopping Items per request"
+        },
+        {
+          "id": 1,
+          "name": "Special Meals",
+          "rate": null,
+          "isEditable": false,
+          "preferences": "Veg",
+          "flightId": 1
+        }
+      ],
+      "checkedin": true,
+      "flight": 1,
+      "gender": "M",
+      "infant": false,
+      "mobile": "9934566236",
+      "name": "Manu",
+      "wheelchair": true,
+      "passport": "12223",
+      "seatno": "2B",
+      "dob": "1995-01-01",
+      "ingredients": "Kannur",
+      "mealpreference": "Veg"
+    },
+    {
+      "name": "Manoj",
+      "age": "25",
+      "mobile": 1222222222,
+      "passport": "12222",
+      "address": "Mumbai",
+      "dob": "1996-02-08",
+      "gender": "M",
+      "flight": 1,
+      "id": 2,
+      "seatno": null,
+      "ingredients": "23232",
+      "ancillaryservices": [
+        {
+          "id": 2,
+          "name": "Shopping Items per request"
+        },
+        {
+          "id": 3,
+          "name": "Bags"
+        },
+        {
+          "id": 1,
+          "name": "Special Meals",
+          "rate": null,
+          "isEditable": false,
+          "preferences": "Non-Veg",
+          "flightId": 1
+        }
+      ],
+      "mealpreference": "Non-Veg",
+      "wheelchair": false,
+      "infant": false,
+      "checkedin": false
+    },
+    {
+      "name": "Raghuram",
+      "age": "40",
+      "mobile": "7777777577",
+      "passport": "777777",
+      "address": "pune",
+      "dob": "1980-02-03",
+      "gender": "M",
+      "flight": 1,
+      "id": 3,
+      "seatno": null,
+      "checkedin": false,
+      "wheelchair": false,
+      "infant": false,
+      "ingredients": "777u7u"
+    },
+    {
+      "name": "Santhosh",
+      "age": "21",
+      "mobile": 8181818181,
+      "passport": "1818181",
+      "address": "mumbai",
+      "dob": "2022-02-03",
+      "gender": "F",
+      "flight": 1,
+      "id": 4,
+      "seatno": null,
+      "checkedin": false,
+      "wheelchair": false,
+      "infant": false,
+      "ingredients": "sfsdfsdfsdf"
+    },
+    {
+      "name": "mohanraghav",
+      "age": 122,
+      "mobile": 1111111111,
+      "passport": "1234444",
+      "address": "mumbai",
+      "dob": "2022-02-08",
+      "gender": "M",
+      "flight": 1,
+      "id": 5,
+      "wheelchair": false,
+      "infant": false,
+      "checkedin": false,
+      "ingredients": "adsfdfsds"
+    },
+    {
+      "name": "Raju",
+      "age": "15",
+      "mobile": 1233333333,
+      "passport": "122222",
+      "address": "asdadad",
+      "dob": "2002-02-02",
+      "gender": "M",
+      "flight": 2,
+      "id": 6,
+      "ingredients": "asdadad",
+      "ancillaryservices": [
+        {
+          "id": 3,
+          "name": "Bags"
+        }
+      ],
+      "seatno": null,
+      "checkedin": false,
+      "wheelchair": false
+    },
+    {
+      "name": "Manuraghva",
+      "age": "14",
+      "mobile": 1222222222,
+      "passport": "12211",
+      "address": "dfsdfsdfsd",
+      "dob": "2007-02-02",
+      "gender": "M",
+      "flight": 2,
+      "id": 7,
+      "seatno": "5D",
+      "checkedin": true,
+      "wheelchair": false,
+      "infant": false,
+      "ingredients": "dfsdfsdfsd"
+    }
+  ],
+  "ancillary": [
+    {
+      "name": "Special Meals",
+      "preferences": "Veg,Non-Veg",
+      "rate": "160",
+      "isEditable": false,
+      "id": 1,
+      "flightId": 1,
+      "ingredients": 1
+    },
+    {
+      "name": "Shopping Items per request",
+      "preferences": "SmartWatch",
+      "rate": 155,
+      "isEditable": true,
+      "id": 2,
+      "flightId": 1
+    },
+    {
+      "id": 3,
+      "name": "Bags",
+      "preferences": "Bags, sport equipment, pets",
+      "rate": 120,
+      "isEditable": true,
+      "flightId": 1
+    },
+    {
+      "id": 4,
+      "name": "Internet WIFI",
+      "preferences": "N/A",
+      "rate": "123.45",
+      "isEditable": true,
+      "flightId": 1,
+      "ingredients": 1
+    },
+    {
+      "id": 5,
+      "name": "Snacks and beverages",
+      "preferences": "N/A",
+      "rate": "23.46",
+      "isEditable": true,
+      "flightId": 1,
+      "ingredients": 1
+    },
+    {
+      "id": 6,
+      "name": "Shopping item sales",
+      "preferences": "Smartwatch",
+      "rate": 23.44,
+      "isEditable": true,
+      "flightId": 1
+    },
+    {
+      "id": 7,
+      "name": "Seatback self services",
+      "preferences": "Blankets",
+      "rate": 23.44,
+      "isEditable": true,
+      "flightId": 1,
+      "ingredients": 1
+    },
+    {
+      "name": "Special Meals",
+      "preferences": "Veg,Non-Veg",
+      "rate": "160",
+      "isEditable": false,
+      "id": 8,
+      "flightId": 2,
+      "ingredients": 1
+    },
+    {
+      "name": "Seatback self service",
+      "preferences": "Blankets",
+      "rate": 23,
+      "flightId": 2,
+      "isEditable": true,
+      "id": 9,
+      "ingredients": 2
+    }
+  ],
+  "seatmap": [
+    {
+      "id": 1,
+      "flightId": 1,
+      "seatno": "2B",
+      "passengerId": 1,
+      "wheelchair": true,
+      "infant": false,
+      "mealpreference": "Veg"
+    },
+    {
+      "id": 2,
+      "flightId": 2,
+      "seatno": "5D",
+      "passengerId": 7,
+      "wheelchair": false,
+      "infant": false,
+      "mealpreference": "N/A"
+    }
+  ]
+}
